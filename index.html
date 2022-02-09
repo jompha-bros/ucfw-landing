@@ -34,7 +34,7 @@
 
 <body class="body-class">
 
-    <header class="ucfw-header py-80">
+    <header class="ucfw-header py-80 navbar navbar-expand-lg navbar-light ">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-12 col-md-4 col-lg-3">
@@ -44,9 +44,10 @@
                         </a>
                     </div>
                 </div>
+                
                 <div class="col-sm-12 col-12 col-md-6 col-lg-7">
-                    <nav class="ucfw-header--menu mt-10">
-                        <ul class="d-flex justify-content-end">
+                    <nav class="ucfw-header--menu mt-10 collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="d-flex navbar-nav justify-content-end">
                             <li class="mr-55"><a href="#">Home</a></li>
                             <li class="mr-55"><a href="#">Blog</a></li>
                             <li class="mr-55"><a href="#">Support</a></li>
@@ -54,6 +55,12 @@
                         </ul>
                     </nav>
                 </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
                 <div class="col-sm-12 col-12 col-md-2 col-lg-2">
                     <div class="ucfw-header--right align-right mt-10">
                         <a href="#" class="btn-white border-color mr-30">Login</a>
