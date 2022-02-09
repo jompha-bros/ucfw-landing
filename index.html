@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/main.css">
+
+    <title>
+        Ulimate Coupons for WooCommerce | Extend coupon functionalities using the most advanced coupon plugin for
+        Woocommerce.
+    </title>
+</head>
+
+<body class="body-class">
+
+    <header class="ucfw-header py-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-12 col-md-4 col-lg-3">
+                    <div class="ucfw-header--logo">
+                        <a href="#">
+                            <img src="assets/img/logo.png" alt="UCFW Logo" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-12 col-md-6 col-lg-7">
+                    <nav class="ucfw-header--menu mt-10">
+                        <ul class="d-flex justify-content-end">
+                            <li class="mr-55"><a href="#">Home</a></li>
+                            <li class="mr-55"><a href="#">Blog</a></li>
+                            <li class="mr-55"><a href="#">Support</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-12 col-12 col-md-2 col-lg-2">
+                    <div class="ucfw-header--right align-right mt-10">
+                        <a href="#" class="btn-white border-color mr-30">Login</a>
+                        <div class="ucfw-header--mini-cart display-iblock position-absolute">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24.084" height="24.084"
+                                    viewBox="0 0 24.084 24.084">
+                                    <path id="ic_shopping_cart_24px"
+                                        d="M8.225,21.267a2.408,2.408,0,1,0,2.408,2.408A2.405,2.405,0,0,0,8.225,21.267ZM1,2V4.408H3.408l4.335,9.14L6.118,16.5a2.328,2.328,0,0,0-.3,1.156,2.416,2.416,0,0,0,2.408,2.408H22.676V17.655H8.731a.3.3,0,0,1-.3-.3l.036-.145L9.55,15.246h8.971a2.4,2.4,0,0,0,2.107-1.24L24.94,6.191a1.177,1.177,0,0,0,.145-.578,1.208,1.208,0,0,0-1.2-1.2H6.07L4.938,2H1ZM20.267,21.267a2.408,2.408,0,1,0,2.408,2.408A2.405,2.405,0,0,0,20.267,21.267Z"
+                                        transform="translate(-1 -2)" fill="#7e7d7d" />
+                                </svg>
+                                <span class="ucfw-header--price-tag">20</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- #row -->
+        </div><!-- #container -->
+    </header><!-- #header -->
+
+    <main class="ucfw-wrapper">
+
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Hero -->
+                    <div class="ucfw-hero pt-60 pb-190 text-center">
+                        <h1 class="font-large primary-color mb-80">
+                            <span class="font-small secondery-color display-block mb-10">Ultimate Coupons for
+                                WooCommerce</span>
+                            The #1 Plugin For Woocommerce Coupon Solution.
+                        </h1>
+                        <div class="ucfw-hero--button">
+                            <a href="#" class="btn-blue">
+                                Get Plugin Now
+                                <img src="assets/img/btn-icon.png" alt="Button Icon" class="img-responsive" />
+                            </a>
+                        </div>
+                        <div class="ucfw-hero--image px-140 pt-90">
+                            <img src="assets/img/illustration.svg" alt="Hero" class="img-responsive w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div><!-- #row -->
+        </section><!-- #container Hero-->
+
+        <section class="container mobile-px-small features">
+
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h2 class="secondery-heading font-medium text-center px-30">Manage All Your Coupon
+                            Functionalities Using
+                            Our WooCommerce Plugin.</h2>
+                    </div>
+                </div>
+            </div><!-- #row -->
+
+            <div class="ucfw-modules py-110">
+                <div class="row justify-content-center mb-20">
+                    <div class="col-sm-6 col-6 col-md-2 col-lg-2">
+                        <div class="ucfw-modules--alone pd-30 bg-white rounded text-center border border-gray">
+                            <div class="ucfw-modules--alone__img-box box-sized  text-dark rounded mx-auto bg-light">
+                                <img src="assets/img/gift.png" class="img-responsive" alt="Modules UCFW" />
+                            </div>
+                            <h5 class="xoxo-heading text-gray mt-3">BUY X GET X Offers</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-6 col-md-2 col-lg-2">
+                        <div class="ucfw-modules--alone pd-30 bg-white rounded text-center border border-gray">
+                            <div class="ucfw-modules--alone__img-box box-sized  text-dark rounded mx-auto bg-light">
+                                <img src="assets/img/gift.png" class="img-responsive" alt="Modules UCFW" />
+                            </div>
+                            <h5 class="xoxo-heading text-gray mt-3">BUY X GET X Offers</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-6 col-md-2 col-lg-2">
+                        <div class="ucfw-modules--alone pd-30 bg-white rounded text-center border border-gray">
+                            <div class="ucfw-modules--alone__img-box box-sized  text-dark rounded mx-auto bg-light">
+                                <img src="assets/img/gift.png" class="img-responsive" alt="Modules UCFW" />
+                            </div>
+                            <h5 class="xoxo-heading text-gray mt-3">BUY X GET X Offers</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-6 col-md-2 col-lg-2">
+                        <div class="ucfw-modules--alone pd-30 bg-white rounded text-center border border-gray">
+                            <div class="ucfw-modules--alone__img-box box-sized  text-dark rounded mx-auto bg-light">
+                                <img src="assets/img/gift.png" class="img-responsive" alt="Modules UCFW" />
+                            </div>
+                            <h5 class="xoxo-heading text-gray mt-3">BUY X GET X Offers</h5>
+                        </div>
+                    </div>
+                </div><!-- #row -->
+                <div class="row justify-content-center mb-20">
+                    <div class="col-sm-6 col-6 col-md-2 col-lg-2">
+                        <div class="ucfw-modules--alone pd-30 bg-white rounded text-center border border-gray">
+                            <div class="ucfw-modules--alone__img-box box-sized  text-dark rounded mx-auto bg-light">
+                                <img src="assets/img/gift.png" class="img-responsive" alt="Modules UCFW" />
+                            </div>
+                            <h5 class="xoxo-heading text-gray mt-3">BUY X GET X Offers</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-6 col-md-2 col-lg-2">
+                        <div class="ucfw-modules--alone pd-30 bg-white rounded text-center border border-gray">
+                            <div class="ucfw-modules--alone__img-box box-sized  text-dark rounded mx-auto bg-light">
+                                <img src="assets/img/gift.png" class="img-responsive" alt="Modules UCFW" />
+                            </div>
+                            <h5 class="xoxo-heading text-gray mt-3">BUY X GET X Offers</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-6 col-md-2 col-lg-2">
+                        <div class="ucfw-modules--alone pd-30 bg-white rounded text-center border border-gray">
+                            <div class="ucfw-modules--alone__img-box box-sized  text-dark rounded mx-auto bg-light">
+                                <img src="assets/img/gift.png" class="img-responsive" alt="Modules UCFW" />
+                            </div>
+                            <h5 class="xoxo-heading text-gray mt-3">BUY X GET X Offers</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-6 col-md-2 col-lg-2">
+                        <div class="ucfw-modules--alone pd-30 bg-white rounded text-center border border-gray">
+                            <div class="ucfw-modules--alone__img-box box-sized  text-dark rounded mx-auto bg-light">
+                                <img src="assets/img/gift.png" class="img-responsive" alt="Modules UCFW" />
+                            </div>
+                            <h5 class="xoxo-heading text-gray mt-3">BUY X GET X Offers</h5>
+                        </div>
+                    </div>
+                </div><!-- #row -->
+            </div>
+
+        </section><!-- #container -->
+
+        <section class="container mobile-px-small modules">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading pb-90">
+                        <h2 class="secondery-heading font-medium text-center px-heading-sm mb-20">
+                            <span class="font-tag primary-color display-block mb-10">Exclusive Features</span>
+                            We are offering exclusive eight unique features
+                        </h2>
+                        <p class="font-xsmall px-para-sm text-center poco-color">Select any pre-madec design sets to
+                            customize and compare among different appearances possible for a happy widget</p>
+                    </div>
+                </div>
+            </div><!-- #row -->
+
+            <div class="ucfw-features">
+                <div class="row pb-170">
+                    <div class="col-sm-12 col-12 col-md-6 col-lg-5 offset-lg-1">
+                        <div class="ucfw-features--alone">
+                            <span class="bg-tag primary-color">Deals</span>
+                            <h2 class="secondery-heading font-medium mt-20 mb-40 gradient-color-1">
+                                Buy X Get X Offers
+                                <span class="font-tag primary-color display-block mt-20">Get One Buy One</span>
+                            </h2>
+                            <p class="font-xsmall text-left poco-color">Select any pre-made design sets to customize and
+                                compare among different appearances possible for a happy widget. Just click on the
+                                presets from the drop-down menu and see the magic.</p>
+                            <a href="#" class="btn-white">Play Now
+                                <svg xmlns="http://www.w3.org/2000/svg" width="7.41" height="12" viewBox="0 0 7.41 12">
+                                    <path id="ic_chevron_right_24px" d="M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z"
+                                        transform="translate(-8.59 -6)" fill="#691ace" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-sm-12 col-12 col-md-5 col-lg-4">
+                        <div class="ucfw-features--alone">
+                            <img src="assets/img/feature.svg" alt="Feature UCFW" class="img-fluid" />
+                        </div>
+                    </div>
+                </div><!-- #row -->
+                <div class="row pb-170">
+                    <div class="offset-lg-1 col-sm-12 col-12 col-md-5 col-lg-4">
+                        <div class="ucfw-features--alone">
+                            <img src="assets/img/feature2.svg" alt="Feature UCFW" class="img-fluid" />
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-12 col-md-6 col-lg-5 offset-lg-1">
+                        <div class="ucfw-features--alone">
+                            <span class="bg-tag primary-color">Deals</span>
+                            <h2 class="secondery-heading font-medium mt-20 mb-40 gradient-color-1">
+                                Cart Conditions
+                                <span class="font-tag primary-color display-block mt-20">Get One Buy One</span>
+                            </h2>
+                            <p class="font-xsmall text-left poco-color">Select any pre-made design sets to customize and
+                                compare among different appearances possible for a happy widget. Just click on the
+                                presets from the drop-down menu and see the magic.</p>
+                            <a href="#" class="btn-white">Play Now
+                                <svg xmlns="http://www.w3.org/2000/svg" width="7.41" height="12" viewBox="0 0 7.41 12">
+                                    <path id="ic_chevron_right_24px" d="M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z"
+                                        transform="translate(-8.59 -6)" fill="#691ace" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- #row -->
+
+            </div><!-- #features -->
+
+        </section><!-- #container -->
+
+        <section class="container-fluid bg-light exclusive">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center px-240 pt-90 pb-120">
+                        <h2 class="secondery-heading px-heading-sm font-medium">
+                            <span class="font-tag primary-color display-block mt-15 mb-10">Exclusive Features</span>
+                            Plugin to Create a Successful Business and Potential Customers
+                        </h2>
+                        <div class="ucfw-hero--button mt-xl">
+                            <a href="#" class="btn-blue">
+                                Get Plugin Now
+                                <img src="assets/img/btn-icon.png" alt="Button Icon" class="img-responsive" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- #row -->
+
+        </section><!-- #container -->
+
+        <section class="container-fluid px-medium py-110 mobile-px-small pricing">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading pb-90">
+                        <h2 class="secondery-heading font-medium text-center px-90 mb-20">
+                            <span class="font-tag primary-color display-block mb-10">Premium Subscriptions</span>
+                            Flexible Pricing Packages
+                        </h2>
+
+                    </div>
+                </div>
+            </div><!-- #row -->
+
+            <div class="ucfw-pricing">
+                <div class="row">
+                    <div class="col-sm-12 col-12 col-md-4 col-lg-4">
+                        <div class="ucfw-pricing--alone border border-gray rounded text-center pb-5">
+                            <div class="ucfw-pricing--header p-4 bb-solid mb-5">
+                                <h5 class="font-xoxo">Individuals</h5>
+                            </div>
+                            <div class="ucfw-pricing--amount d-grid gap-2 mb-5">
+                                <span
+                                    class="ucfw-pricing--amount__discount text-decoration-line-through font-small grey-color">$100</span>
+                                <span class="ucfw-pricing--amount__regular primary-color font-medium">
+                                    $49<strong class="font-xsmall secondery-color">/Year</strong>
+                                </span>
+                            </div>
+                            <div class="ucfw-pricing--list my-5">
+                                <ul class="d-grid gap-2">
+                                    <li>1 Year Update</li>
+                                    <li>1 Year Update</li>
+                                    <li>1 Year Update</li>
+                                </ul>
+                            </div>
+                            <div class="ucfw-pricing--action p-4">
+                                <a href="#" class="btn-white active">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-12 col-md-4 col-lg-4">
+                        <div class="ucfw-pricing--alone border border-gray rounded text-center pb-5">
+                            <div class="ucfw-pricing--header active p-4 bb-solid mb-5">
+                                <img src="assets/img/btn-icon.png" alt="Button Icon" class="img-responsive" />
+                                <h5 class="font-xoxo">Freelancers</h5>
+                            </div>
+                            <div class="ucfw-pricing--amount d-grid gap-2 mb-5">
+                                <span
+                                    class="ucfw-pricing--amount__discount text-decoration-line-through font-small grey-color">$100</span>
+                                <span class="ucfw-pricing--amount__regular primary-color font-medium">
+                                    $49<strong class="font-xsmall secondery-color">/Year</strong>
+                                </span>
+                            </div>
+                            <div class="ucfw-pricing--list my-5">
+                                <ul class="d-grid gap-2">
+                                    <li>1 Year Update</li>
+                                    <li>1 Year Update</li>
+                                    <li>1 Year Update</li>
+                                </ul>
+                            </div>
+                            <div class="ucfw-pricing--action p-4">
+                                <a href="#" class="btn-white active">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-12 col-md-4 col-lg-4">
+                        <div class="ucfw-pricing--alone border border-gray rounded text-center pb-5">
+                            <div class="ucfw-pricing--header p-4 bb-solid mb-5">
+                                <h5 class="font-xoxo">Agency</h5>
+                            </div>
+                            <div class="ucfw-pricing--amount d-grid gap-2 mb-5">
+                                <span
+                                    class="ucfw-pricing--amount__discount text-decoration-line-through font-small grey-color">$100</span>
+                                <span class="ucfw-pricing--amount__regular primary-color font-medium">
+                                    $49<strong class="font-xsmall secondery-color">/Year</strong>
+                                </span>
+                            </div>
+                            <div class="ucfw-pricing--list my-5">
+                                <ul class="d-grid gap-2">
+                                    <li>1 Year Update</li>
+                                    <li>1 Year Update</li>
+                                    <li>1 Year Update</li>
+                                </ul>
+                            </div>
+                            <div class="ucfw-pricing--action p-4">
+                                <a href="#" class="btn-white active">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- #row -->
+            </div>
+
+        </section><!-- #container -->
+
+        <section class="container-fluid px-medium bg-lite py-110 testimonials">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading pb-90">
+                        <h2 class="secondery-heading font-medium text-center mb-20 gradient-color-1">
+                            Testimonials
+                        </h2>
+                        <div class="ucfw-reviews text-center mb-2 font-small d-flex justify-content-center ">
+                            <div class=" ucfw-reviews--rating mr-10">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <span class="ucfw-reviews--result font-small secondery-color">5.00 out of 5</span>
+                        </div>
+                        <p class="font-xsmall px-200 text-center xoxo-color fw-normal mobile-px-initial">250 Customer
+                            Positive Review</p>
+                    </div>
+                </div>
+            </div><!-- #row -->
+
+            <div class="ucfw-testimonials pt-80">
+
+                <div class="row">
+                    <div class="col-sm-12 col-12 col-md-4 col-lg-4">
+                        <div class="ucfw-testimonials--alone position-relative text-center mobile-px">
+                            <div class="ucfw-testimonials--alone__img position-absolute">
+                                <img src="assets/img/tawsif.png" alt="Client" class="img-responsive mb-2" />
+                            </div>
+                            <div class="ucfw-testimonials--alone__block bg-white p-4">
+                                <h5 class="xoxo-heading primary-color font-small mt-5">
+                                    Tawsif Khan
+                                    <span class="font-xsmall poco-color fw-normal display-block">Graphic Designer</span>
+                                </h5>
+                                <div class="ucfw-reviews--rating display-iblock text-center mb-2">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <div class="ucfw-testimonials--comments">
+                                    <div class="ucfw-testimonials--comments__svg py-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35.3" height="26.063"
+                                            viewBox="0 0 35.3 26.063">
+                                            <g id="inverted-commas-svgrepo-com" transform="translate(0 -25.905)">
+                                                <path id="Path_802" data-name="Path 802"
+                                                    d="M0,37.85H8.562C8.415,44.09,6.646,44.8,4.423,45l-.857.106v6.861l.988-.053c2.9-.163,6.112-.687,8.253-3.33,1.877-2.317,2.7-6.1,2.7-11.913V25.905H0Z"
+                                                    transform="translate(0 0)" fill="#691ace" />
+                                                <path id="Path_803" data-name="Path 803"
+                                                    d="M111,25.905V37.85h8.447c-.146,6.24-1.859,6.948-4.082,7.15l-.8.106v6.861l.931-.053c2.9-.163,6.14-.687,8.281-3.33,1.877-2.317,2.733-6.1,2.733-11.913V25.905Z"
+                                                    transform="translate(-91.211 0)" fill="#691ace" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <blockquote>
+                                        <i class="fa fa-blockqoute"></i>
+                                        <p class="font-xsmall poco-color text-left">Fantastic service. I needed bespoke
+                                            code to
+                                            automatically email customers, each with their own unique discount code.
+                                            Mark revised the code for me within one day; worked perfectly. Great
+                                            support.</p>
+                                    </blockquote>
+                                </div>
+                                <div class="ucfw-testimonials--quote position-absolute fixed-bottom">
+                                    <svg xmlns=" http://www.w3.org/2000/svg" width="221.806" height="163.766"
+                                        viewBox="0 0 221.806 163.766">
+                                        <g id="inverted-commas-svgrepo-com" transform="translate(0 -25.905)"
+                                            opacity="0.02">
+                                            <path id="Path_802" data-name="Path 802"
+                                                d="M0,100.961H53.8c-.92,39.208-12.04,43.659-26.007,44.929l-5.386.668v43.113l6.208-.333c18.239-1.026,38.4-4.314,51.856-20.921C92.261,153.858,97.46,130.073,97.46,93.562V25.9H0Z"
+                                                transform="translate(0 0)" fill="#691ace" />
+                                            <path id="Path_803" data-name="Path 803"
+                                                d="M111,25.9v75.056h53.08c-.92,39.208-11.681,43.659-25.648,44.929l-5.028.668v43.113l5.85-.333c18.238-1.026,38.583-4.314,52.036-20.921,11.792-14.559,17.17-38.343,17.17-74.855V25.9Z"
+                                                transform="translate(13.346 0)" fill="#691ace" />
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-12 col-md-4 col-lg-4">
+                        <div class="ucfw-testimonials--alone position-relative text-center active mobile-px">
+                            <div class="ucfw-testimonials--alone__img position-absolute">
+                                <img src="assets/img/tawsif.png" alt="Client" class="img-responsive mb-2" />
+                            </div>
+                            <div class="ucfw-testimonials--alone__block bg-white p-4">
+                                <h5 class="xoxo-heading primary-color font-small mt-5">
+                                    Tawsif Khan
+                                    <span class="font-xsmall poco-color fw-normal display-block">Graphic Designer</span>
+                                </h5>
+                                <div class="ucfw-reviews--rating display-iblock text-center mb-2">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <div class="ucfw-testimonials--comments">
+                                    <div class="ucfw-testimonials--comments__svg py-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35.3" height="26.063"
+                                            viewBox="0 0 35.3 26.063">
+                                            <g id="inverted-commas-svgrepo-com" transform="translate(0 -25.905)">
+                                                <path id="Path_802" data-name="Path 802"
+                                                    d="M0,37.85H8.562C8.415,44.09,6.646,44.8,4.423,45l-.857.106v6.861l.988-.053c2.9-.163,6.112-.687,8.253-3.33,1.877-2.317,2.7-6.1,2.7-11.913V25.905H0Z"
+                                                    transform="translate(0 0)" fill="#691ace" />
+                                                <path id="Path_803" data-name="Path 803"
+                                                    d="M111,25.905V37.85h8.447c-.146,6.24-1.859,6.948-4.082,7.15l-.8.106v6.861l.931-.053c2.9-.163,6.14-.687,8.281-3.33,1.877-2.317,2.733-6.1,2.733-11.913V25.905Z"
+                                                    transform="translate(-91.211 0)" fill="#691ace" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <blockquote>
+                                        <i class="fa fa-blockqoute"></i>
+                                        <p class="font-xsmall poco-color text-left">Fantastic service. I needed bespoke
+                                            code to
+                                            automatically email customers, each with their own unique discount code.
+                                            Mark revised the code for me within one day; worked perfectly. Great
+                                            support.</p>
+                                    </blockquote>
+                                </div>
+                                <div class="ucfw-testimonials--quote position-absolute fixed-bottom">
+                                    <svg xmlns=" http://www.w3.org/2000/svg" width="221.806" height="163.766"
+                                        viewBox="0 0 221.806 163.766">
+                                        <g id="inverted-commas-svgrepo-com" transform="translate(0 -25.905)"
+                                            opacity="0.02">
+                                            <path id="Path_802" data-name="Path 802"
+                                                d="M0,100.961H53.8c-.92,39.208-12.04,43.659-26.007,44.929l-5.386.668v43.113l6.208-.333c18.239-1.026,38.4-4.314,51.856-20.921C92.261,153.858,97.46,130.073,97.46,93.562V25.9H0Z"
+                                                transform="translate(0 0)" fill="#691ace" />
+                                            <path id="Path_803" data-name="Path 803"
+                                                d="M111,25.9v75.056h53.08c-.92,39.208-11.681,43.659-25.648,44.929l-5.028.668v43.113l5.85-.333c18.238-1.026,38.583-4.314,52.036-20.921,11.792-14.559,17.17-38.343,17.17-74.855V25.9Z"
+                                                transform="translate(13.346 0)" fill="#691ace" />
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-12 col-md-4 col-lg-4">
+                        <div class="ucfw-testimonials--alone position-relative text-center mobile-px">
+                            <div class="ucfw-testimonials--alone__img position-absolute">
+                                <img src="assets/img/tawsif.png" alt="Client" class="img-responsive mb-2" />
+                            </div>
+                            <div class="ucfw-testimonials--alone__block bg-white p-4">
+                                <h5 class="xoxo-heading primary-color font-small mt-5">
+                                    Tawsif Khan
+                                    <span class="font-xsmall poco-color fw-normal display-block">Graphic Designer</span>
+                                </h5>
+                                <div class="ucfw-reviews--rating display-iblock text-center mb-2">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <div class="ucfw-testimonials--comments">
+                                    <div class="ucfw-testimonials--comments__svg py-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35.3" height="26.063"
+                                            viewBox="0 0 35.3 26.063">
+                                            <g id="inverted-commas-svgrepo-com" transform="translate(0 -25.905)">
+                                                <path id="Path_802" data-name="Path 802"
+                                                    d="M0,37.85H8.562C8.415,44.09,6.646,44.8,4.423,45l-.857.106v6.861l.988-.053c2.9-.163,6.112-.687,8.253-3.33,1.877-2.317,2.7-6.1,2.7-11.913V25.905H0Z"
+                                                    transform="translate(0 0)" fill="#691ace" />
+                                                <path id="Path_803" data-name="Path 803"
+                                                    d="M111,25.905V37.85h8.447c-.146,6.24-1.859,6.948-4.082,7.15l-.8.106v6.861l.931-.053c2.9-.163,6.14-.687,8.281-3.33,1.877-2.317,2.733-6.1,2.733-11.913V25.905Z"
+                                                    transform="translate(-91.211 0)" fill="#691ace" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <blockquote>
+                                        <i class="fa fa-blockqoute"></i>
+                                        <p class="font-xsmall poco-color text-left">Fantastic service. I needed bespoke
+                                            code to
+                                            automatically email customers, each with their own unique discount code.
+                                            Mark revised the code for me within one day; worked perfectly. Great
+                                            support.</p>
+                                    </blockquote>
+                                </div>
+                                <div class="ucfw-testimonials--quote position-absolute fixed-bottom">
+                                    <svg xmlns=" http://www.w3.org/2000/svg" width="221.806" height="163.766"
+                                        viewBox="0 0 221.806 163.766">
+                                        <g id="inverted-commas-svgrepo-com" transform="translate(0 -25.905)"
+                                            opacity="0.02">
+                                            <path id="Path_802" data-name="Path 802"
+                                                d="M0,100.961H53.8c-.92,39.208-12.04,43.659-26.007,44.929l-5.386.668v43.113l6.208-.333c18.239-1.026,38.4-4.314,51.856-20.921C92.261,153.858,97.46,130.073,97.46,93.562V25.9H0Z"
+                                                transform="translate(0 0)" fill="#691ace" />
+                                            <path id="Path_803" data-name="Path 803"
+                                                d="M111,25.9v75.056h53.08c-.92,39.208-11.681,43.659-25.648,44.929l-5.028.668v43.113l5.85-.333c18.238-1.026,38.583-4.314,52.036-20.921,11.792-14.559,17.17-38.343,17.17-74.855V25.9Z"
+                                                transform="translate(13.346 0)" fill="#691ace" />
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- #row -->
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="ucfw-testimonials--load-more text-center pt-90">
+                            <a href="#" class="font-small">
+                                See All <span>(250)</span> Testimonials
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- #container -->
+
+        <section class="container">
+
+            <div class="ucfw-promise py-110">
+
+                <div class="row">
+                    <div class="col-sm-12 col-12 col-md-6 col-lg-5">
+                        <div class="ucfw-promise--alone mobile-px">
+                            <img src="assets/img/illustration.png" alt="Client" class="img-responsive mw-100" />
+                            <!--  mw-100-->
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-sm-12 col-12 col-md-6 col-lg-6">
+                        <div class="ucfw-promise--alone d-flex justify-content-between pb-90">
+                            <div class="ucfw-promise--alone__icon mr-15">
+                                <img src="assets/img/money-back-guarantee.png" alt="Promise" class="img-responsive">
+                            </div>
+                            <div class="ucfw-promise--alone__details">
+                                <h5 class="xoxo-heading font-small">14 Days Money Back Guarantee</h5>
+                                <p class="font-xsmall">Try Elementor for 30 days, zero strings attached. Try Elementor
+                                    for 30 days, zero strings attached.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ucfw-promise--alone d-flex justify-content-between pb-90">
+                            <div class="ucfw-promise--alone__icon mr-15">
+                                <img src="assets/img/credit-card.png" alt="Promise" class="img-responsive">
+                            </div>
+                            <div class="ucfw-promise--alone__details">
+                                <h5 class="xoxo-heading font-small">SSL Secure Payment</h5>
+                                <p class="font-xsmall">Try Elementor for 30 days, zero strings attached. Try Elementor
+                                    for 30 days, zero strings attached.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ucfw-promise--alone d-flex justify-content-between pb-90">
+                            <div class="ucfw-promise--alone__icon mr-15">
+                                <img src="assets/img/shield.png" alt="Promise" class="img-responsive">
+                            </div>
+                            <div class="ucfw-promise--alone__details m">
+                                <h5 class="xoxo-heading font-small">Accepted Payment Methods</h5>
+                                <p class="font-xsmall">Try Elementor for 30 days, zero strings attached. Try Elementor
+                                    for 30 days, zero strings attached.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- #row -->
+
+            </div>
+
+        </section><!-- #container -->
+
+        <section class="container-fluid bg-lite py-110">
+
+            <div class="ucfw-faqs py-80 px-medium">
+
+                <div class="row">
+                    <div class="col-sm-12 col-12 col-md-6 col-lg-6">
+                        <div class="ucfw-faqs--alone">
+                            <h2 class="secondery-heading mb-20 font-medium">Frequently Asked
+                                Questions</h2>
+                            <p class="font-xsmall poco-color mb-50">If your question is not
+                                listed here, then please visit the support page.</p>
+                            <a href="#" class="btn-white">All Questions</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-12 col-md-6 col-lg-6">
+                        <div class="ucfw-faqs--alone ucfw-faqs--accordion">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header font-xsmall" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseOne">
+                                            How much does it cost to renew the licence
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="font-xsmall">Its depend on your package. Your License will be
+                                                automatically renewed
+                                                anually. We usually provide a discount if you
+                                                renew the License before
+                                                the expiry date.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseTwo">
+                                            How much does it cost to renew the licence
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="font-xsmall">Its depend on your package. Your License will be
+                                                automatically renewed
+                                                anually. We usually provide a discount if you
+                                                renew the License before
+                                                the expiry date.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree" aria-expanded="true"
+                                            aria-controls="collapseThree">
+                                            How much does it cost to renew the licence
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="font-xsmall">Its depend on your package. Your License will be
+                                                automatically renewed
+                                                anually. We usually provide a discount if you
+                                                renew the License before
+                                                the expiry date.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- #row -->
+
+            </div>
+
+        </section><!-- #container -->
+
+    </main><!-- #wrapper -->
+
+    <footer class="ucfw-footer gradient-color-2 text-white">
+        <div class="container">
+            <div class="row pt-90 pb-90">
+                <div class="col-sm-12 col-12 col-md-4 col-lg-4">
+                    <div class="ucfw-footer--top_widget pt-50">
+                        <div class="ucfw-footer--top__identity">
+                            <a href="#" class="mb-20 inline-block">
+                                <img src="assets/img/logo.png" alt="img-responsive">
+                            </a>
+                            <p class="pt-20 font-xsmall pr-50">Jompha is one of the
+                                leading software development company in
+                                Bangladesh.
+                            </p>
+                        </div>
+                        <div class="ucfw-footer--top__social">
+                            <ul class="d-flex justify-content-start">
+                                <li class="mr-15"><a href="#"><i class="bi bi-facebook text-white"></i></a>
+                                </li>
+                                <li class="mr-15"><a href="#"><i class="bi bi-twitter text-white"></i></a>
+                                </li>
+                                <li class=""><a href="#"><i class="bi bi-youtube text-white"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-12 col-md-2 col-lg-2">
+                    <div class="ucfw-footer--top_widget">
+                        <div class="ucfw-footer--top__heading">
+                            <h5 class="xoxo-heading font-small text-white">Company
+                            </h5>
+                        </div>
+                        <div class="ucfw-footer--top__links">
+                            <ul>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Menu</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-12 col-md-2 col-lg-2">
+                    <div class="ucfw-footer--top_widget">
+                        <div class="ucfw-footer--top__heading">
+                            <h5 class="xoxo-heading font-small text-white">Resources
+                            </h5>
+                        </div>
+                        <div class="ucfw-footer--top__links">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-12 col-md-2 col-lg-2">
+                    <div class="ucfw-footer--top_widget">
+                        <div class="ucfw-footer--top__heading">
+                            <h5 class="xoxo-heading font-small text-white">Use Cases
+                            </h5>
+                        </div>
+                        <div class="ucfw-footer--top__links">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-12 col-md-2 col-lg-2">
+                    <div class="ucfw-footer--top_widget">
+                        <div class="ucfw-footer--top__heading">
+                            <h5 class="xoxo-heading font-small text-white">Help &
+                                Support</h5>
+                        </div>
+                        <div class="ucfw-footer--top__links">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- #row -->
+
+            <div class="ucfw-footer--bottom py-3">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="mb-0 text-center">Copyright © 2021 All Rights
+                            Reserved by Jompha</p>
+                    </div>
+                </div><!-- #row -->
+            </div>
+        </div><!-- #container -->
+    </footer><!-- #footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
