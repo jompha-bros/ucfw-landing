@@ -156,6 +156,9 @@ input:focus {
 .pb-90 {
   padding-bottom: 90px;
 }
+.pb-50 {
+  padding-bottom: 50px;
+}
 .pt-20 {
   padding-top: 20px;
 }
@@ -167,6 +170,10 @@ input:focus {
 }
 .pb-10 {
   padding-bottom: 10px;
+}
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .py-80 {
   padding-top: 80px;
@@ -553,6 +560,9 @@ input:focus {
 .ucfw-testimonials--quote{
   width: -webkit-fill-available;
 }
+.ucfw-header--menu{
+  margin-left: 5rem;
+}
 
 @media only screen and (max-width: 768px) {
   .py-110 {
@@ -613,7 +623,8 @@ input:focus {
   .ucfw-promise--alone.pb-90, 
   .ucfw-promise--alone.mobile-px, 
   .ucfw-hero.pb-190, 
-  .pricing .section-heading{
+  .pricing .section-heading, 
+  .ucfw-footer .pb-90{
     padding-bottom: 50px;
   }
   .ucfw-testimonials--alone{
@@ -679,5 +690,19 @@ input:focus {
   }
   .ucfw-testimonials--alone.active {
     border-bottom: 0;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .ucfw-header--menu > ul > li.mr-55, .ucfw-footer--top_widget.mobile-margin-none {
+    margin: 0
+  }
+  .ucfw-header--menu{
+    margin-left: 0;
+  }
+  .navbar-toggler{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
   }
 }
